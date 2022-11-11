@@ -90,7 +90,7 @@ body {
         transition-property: transform;
         transition-duration: 5000ms;
         transition-delay: 200ms;
-        transition-timing-function: linear;
+        transition-timing-function: ease-in;
         transform: translateX(300px) translateY(200px);
         transform: rotate(80deg);
         transition-property: background, transform;
@@ -132,7 +132,7 @@ body {
         transition-property: transform;
         transition-duration: 3000ms;
         transition-delay: 200ms;
-        transition-timing-function: linear;
+        transition-timing-function: ease-in;
         transform: rotate(100deg);
         transition-property: background, transform;
         z-index: 3;
@@ -174,7 +174,7 @@ body {
     transition-property: transform;
     transition-duration: 3000ms;
     transition-delay: 200ms;
-    transition-timing-function: linear;
+    transition-timing-function: ease-in;
     transform: rotate(200deg);
     transition-property: background, transform, top, left;
     z-index: 3;
@@ -217,7 +217,7 @@ body {
         transition-property: transform;
         transition-duration: 2300ms;
         transition-delay: 200ms;
-        transition-timing-function: linear;
+        transition-timing-function: ease-in;
         transform: rotate(200deg);
         transition-property: background, transform, top, left;
         z-index: 3;
@@ -266,7 +266,7 @@ body {
         transition-property: transform;
         transition-duration: 1200ms;
         transition-delay: 200ms;
-        transition-timing-function: linear;
+        transition-timing-function: ease-in;
         transform: rotate(200deg);
         transition-property: background, transform, top, left;
         z-index: 3;
@@ -311,18 +311,18 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color: cyan;
+    background-color: rgb(255, 132, 0);
     transition-property: transform;
     transition-duration: 1000ms;
-    transition-delay: 300ms;
-    transition-timing-function: ease-in-out;
+    transition-delay: 200ms;
+    transition-timing-function: ease-in;
     transform: rotate(200deg);
     transition-property: background, transform, top, left;
     z-index: 3;
 }
 
 .box-6:hover {
-    background-color: yellow;
+    background-color: green;
     transform: rotate(-89deg);
     transform: scale(.12);
     top: -115px;
