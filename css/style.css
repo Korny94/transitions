@@ -12,11 +12,10 @@ header {
 .home-button {
     width: 30px;
     transition-duration: 300ms;
-    background-color: orange;
+    background-color: rgb(255, 227, 174);
     padding: 8px;
     border-radius: 40%;
-    box-shadow: 0 0 10px 1px rgba(255, 165, 165, 0.4);
-    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 1px 1px rgba(255, 165, 165, 0.4);
 }
 
 .next-level,
