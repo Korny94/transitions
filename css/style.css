@@ -40,18 +40,17 @@ body {
 .box {
     width: 200px;
     height: 200px;
+    left: 40px;
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     background-color: red;
-    transform: scale(2);
     transition-property: transform;
     transition-duration: 6000ms;
     transition-delay: 200ms;
     transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
-    transform: translateX(300px) translateY(200px);
     transform: rotate(30deg);
     transition-property: background, transform;
     z-index: 3;
@@ -60,7 +59,7 @@ body {
 .box:hover {
     background-color: blue;
     transform: rotate(-30deg);
-    transform: translateX(700px) translateY(100px);
+    transform: translateX(660px) translateY(100px);
 }
 
 .goal {
