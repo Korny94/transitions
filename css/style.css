@@ -1,0 +1,350 @@
+    /* --- GLOBAL --- */
+
+header {
+    display: flex;
+    width: 800px;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+.home-button {
+    width: 30px;
+}
+
+.next-level,
+.home {
+    font-size: 2em;
+}
+
+img {
+    width: 20px;
+}
+
+.h1 {
+    font-size: 2.5em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    /* --- INDEX --- */
+    
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: red;
+    transform: scale(2);
+    transition-property: transform;
+    transition-duration: 6000ms;
+    transition-delay: 200ms;
+    transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+    transform: translateX(300px) translateY(200px);
+    transform: rotate(30deg);
+    transition-property: background, transform;
+    z-index: 3;
+}
+
+.box:hover {
+    background-color: blue;
+    transform: rotate(-30deg);
+    transform: translateX(700px) translateY(100px);
+}
+
+.goal {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    position: relative;
+    transform: translateX(695px) translateY(-105px);
+}
+
+    /* --- LEVEL-1 --- */
+
+    .box-1 {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-color: yellow;
+        transition-property: transform;
+        transition-duration: 5000ms;
+        transition-delay: 200ms;
+        transition-timing-function: linear;
+        transform: translateX(300px) translateY(200px);
+        transform: rotate(80deg);
+        transition-property: background, transform;
+        z-index: 3;
+    }
+    
+    .box-1:hover {
+        background-color: green;
+        transform: rotate(-30deg);
+        transform: translateX(1000px) translateY(200px);
+    }
+    
+    .goal-1 {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        border: 5px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3em;
+        position: relative;
+        transform: translateX(995px) translateY(-5px);
+    }
+
+    /* --- LEVEL-2 --- */
+
+    .box-2 {
+        top: 40px;
+        left: 800px;
+        width: 150px;
+        height: 200px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-color: orange;
+        transition-property: transform;
+        transition-duration: 3000ms;
+        transition-delay: 200ms;
+        transition-timing-function: linear;
+        transform: rotate(100deg);
+        transition-property: background, transform;
+        z-index: 3;
+    }
+    
+    .box-2:hover {
+        background-color: green;
+        transform: rotate(-89deg);
+        transform: translateX(-700px) translateY(200px);
+    }
+    
+    .goal-2 {
+        width: 150px;
+        height: 200px;
+        border-radius: 20px;
+        border: 5px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3em;
+        position: relative;
+        top: 35px;
+        left: 94.5px;
+    }
+
+    /* --- LEVEL-3 --- */
+
+.box-3 {
+    top: 40px;
+    left: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: blueviolet;
+    transition-property: transform;
+    transition-duration: 3000ms;
+    transition-delay: 200ms;
+    transition-timing-function: linear;
+    transform: rotate(200deg);
+    transition-property: background, transform, top, left;
+    z-index: 3;
+}
+
+.box-3:hover {
+    background-color: green;
+    transform: rotate(-89deg);
+    top: 200px;
+    left: 800px;
+}
+
+.goal-3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    position: relative;
+    top: 45px;
+    left: 795px;
+}
+
+    /* --- LEVEL-4 --- */
+
+    .box-4 {
+        top: -100px;
+        left: 1000px;
+        width: 120px;
+        height: 120px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-color: greenyellow;
+        transition-property: transform;
+        transition-duration: 2300ms;
+        transition-delay: 200ms;
+        transition-timing-function: linear;
+        transform: rotate(200deg);
+        transition-property: background, transform, top, left;
+        z-index: 3;
+    }
+    
+    .box-4:hover {
+        background-color: red;
+        transform: rotate(-89deg);
+        transform: scale(.7);
+        top: 200px;
+        left: 40px;
+    }
+
+    .h1-4 {
+        font-size: 1.4em;
+    }
+    
+    .goal-4 {
+        width: 120px;
+        height: 120px;
+        border-radius: 20px;
+        border: 5px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3em;
+        position: relative;
+        top: 75px;
+        left: 35px;
+        transform: scale(.7);
+    }
+
+    /* --- LEVEL-5 --- */
+
+    .box-5 {
+        top: -100px;
+        left: 10px;
+        width: 100px;
+        height: 100px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-color: cyan;
+        transition-property: transform;
+        transition-duration: 1800ms;
+        transition-delay: 200ms;
+        transition-timing-function: ease-in-out;
+        transform: rotate(200deg);
+        transition-property: background, transform, top, left;
+        z-index: 3;
+    }
+    
+    .box-5:hover {
+        background-color: yellow;
+        transform: rotate(-89deg);
+        transform: scale(.5);
+        top: 100px;
+        left: 1050px;
+    }
+
+    .h1-5 {
+        font-size: 1.4em;
+    }
+    
+    .goal-5 {
+        width: 100px;
+        height: 100px;
+        border-radius: 20px;
+        border: 5px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3em;
+        position: relative;
+        top: -5px;
+        left: 1045px;
+        transform: scale(.5);
+    }
+
+    /* --- LEVEL-6 --- */
+
+   .box-6 {
+    top: 350px;
+    left: 1100px;
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: cyan;
+    transition-property: transform;
+    transition-duration: 1000ms;
+    transition-delay: 300ms;
+    transition-timing-function: ease-in-out;
+    transform: rotate(200deg);
+    transition-property: background, transform, top, left;
+    z-index: 3;
+}
+
+.box-6:hover {
+    background-color: yellow;
+    transform: rotate(-89deg);
+    transform: scale(.12);
+    top: -115px;
+    left: 50px;
+}
+
+.h1-6 {
+    font-size: 1.4em;
+}
+
+.goal-6 {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    position: relative;
+    top: -200px;
+    left: 45px;
+    transform: scale(.12);
+}
+
