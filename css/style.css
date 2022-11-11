@@ -264,9 +264,9 @@ body {
         position: relative;
         background-color: cyan;
         transition-property: transform;
-        transition-duration: 1800ms;
+        transition-duration: 1200ms;
         transition-delay: 200ms;
-        transition-timing-function: ease-in-out;
+        transition-timing-function: linear;
         transform: rotate(200deg);
         transition-property: background, transform, top, left;
         z-index: 3;
@@ -275,13 +275,13 @@ body {
     .box-5:hover {
         background-color: yellow;
         transform: rotate(-89deg);
-        transform: scale(.5);
+        transform: scale(.24);
         top: 100px;
         left: 1050px;
     }
 
     .h1-5 {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     
     .goal-5 {
@@ -296,7 +296,7 @@ body {
         position: relative;
         top: -5px;
         left: 1045px;
-        transform: scale(.5);
+        transform: scale(.24);
     }
 
     /* --- LEVEL-6 --- */
@@ -330,7 +330,7 @@ body {
 }
 
 .h1-6 {
-    font-size: 1.4em;
+    font-size: 1em;
 }
 
 .goal-6 {
