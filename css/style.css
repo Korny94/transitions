@@ -1,5 +1,4 @@
     /* --- GLOBAL --- */
-
 header {
     display: flex;
     width: 850px;
@@ -88,7 +87,7 @@ body {
     justify-content: center;
     position: relative;
     background-color: red;
-    transition-duration: 6000ms;
+    transition-duration: 5000ms;
     transition-delay: 200ms;
     transition-timing-function: ease-in;
     transform: rotate(30deg);
